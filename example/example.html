@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>demo</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://unpkg.com/vue@2.3.4"></script>
+        <script src="../dist/swipe.js"></script>
+        <link href="../dist/swipe.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="root">
+            <swipe style="width: 200px; height: 100px;" :auto="3000" :speed="300" :indicator="true">
+                <swipe-item v-for="item in items" :key="item.id" :style="item.style">{{item.id}}</swipe-item>
+            </swipe>
+        </div>
+        <script>
+            const swipe = vueSwipe.swipe
+            const swipeItem = vueSwipe.swipeItem
+            let app = new Vue({
+                el: '#root',
+                data: {
+                    items: [
+                        {id: 0, style: {background: 'red'}},
+                        {id: 1, style: {background: 'yellow'}},
+                        {id: 2, style: {background: 'green'}}
+                    ]
+                },
+                components: {
+                    'swipe': swipe,
+                    'swipe-item': swipeItem
+                }
+            })
+
+            setTimeout(() => {
+                app.items.splice(1, 0, {id: 4, style: {background: 'blue'}})
+            }, 13000)
+        </script>
+    </body>
+</html>
