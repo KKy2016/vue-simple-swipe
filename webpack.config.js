@@ -4,7 +4,9 @@ module.exports = {
     entry: './src/index.js',
     output: {
         path: path.resolve(__dirname, './dist'),
-        filename: "swipe.js"
+        filename: "swipe.js",
+        library: 'VueSwipe',
+        libraryTarget: 'umd'
     },
     module: {
         rules: [

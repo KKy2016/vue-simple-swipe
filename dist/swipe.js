@@ -1,4 +1,14 @@
-/******/ (function(modules) { // webpackBootstrap
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(typeof exports === 'object' && typeof module === 'object')
+		module.exports = factory();
+	else if(typeof define === 'function' && define.amd)
+		define([], factory);
+	else if(typeof exports === 'object')
+		exports["VueSwipe"] = factory();
+	else
+		root["VueSwipe"] = factory();
+})(this, function() {
+return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
 /******/
@@ -171,7 +181,7 @@ module.exports = function normalizeComponent (
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_13_0_1_vue_loader_lib_selector_type_script_index_0_swipe_item_vue__ = __webpack_require__(5);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_13_0_1_vue_loader_lib_selector_type_script_index_0_swipe_item_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_13_0_1_vue_loader_lib_selector_type_script_index_0_swipe_item_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_13_0_1_vue_loader_lib_template_compiler_index_id_data_v_6a6d01f5_node_modules_13_0_1_vue_loader_lib_selector_type_template_index_0_swipe_item_vue__ = __webpack_require__(4);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_13_0_1_vue_loader_lib_template_compiler_index_id_data_v_7f60459c_node_modules_13_0_1_vue_loader_lib_selector_type_template_index_0_swipe_item_vue__ = __webpack_require__(4);
 var disposed = false
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -186,7 +196,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_13_0_1_vue_loader_lib_selector_type_script_index_0_swipe_item_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_13_0_1_vue_loader_lib_template_compiler_index_id_data_v_6a6d01f5_node_modules_13_0_1_vue_loader_lib_selector_type_template_index_0_swipe_item_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_13_0_1_vue_loader_lib_template_compiler_index_id_data_v_7f60459c_node_modules_13_0_1_vue_loader_lib_selector_type_template_index_0_swipe_item_vue__["a" /* default */],
   __vue_styles__,
   __vue_scopeId__,
   __vue_module_identifier__
@@ -202,9 +212,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-6a6d01f5", Component.options)
+    hotAPI.createRecord("data-v-7f60459c", Component.options)
   } else {
-    hotAPI.reload("data-v-6a6d01f5", Component.options)
+    hotAPI.reload("data-v-7f60459c", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -222,7 +232,7 @@ if (false) {(function () {
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_13_0_1_vue_loader_lib_selector_type_script_index_0_swipe_vue__ = __webpack_require__(6);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_13_0_1_vue_loader_lib_selector_type_script_index_0_swipe_vue___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_13_0_1_vue_loader_lib_selector_type_script_index_0_swipe_vue__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_13_0_1_vue_loader_lib_template_compiler_index_id_data_v_566bb1db_node_modules_13_0_1_vue_loader_lib_selector_type_template_index_0_swipe_vue__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__node_modules_13_0_1_vue_loader_lib_template_compiler_index_id_data_v_270881d4_node_modules_13_0_1_vue_loader_lib_selector_type_template_index_0_swipe_vue__ = __webpack_require__(3);
 var disposed = false
 var normalizeComponent = __webpack_require__(0)
 /* script */
@@ -237,7 +247,7 @@ var __vue_scopeId__ = null
 var __vue_module_identifier__ = null
 var Component = normalizeComponent(
   __WEBPACK_IMPORTED_MODULE_0__babel_loader_node_modules_13_0_1_vue_loader_lib_selector_type_script_index_0_swipe_vue___default.a,
-  __WEBPACK_IMPORTED_MODULE_1__node_modules_13_0_1_vue_loader_lib_template_compiler_index_id_data_v_566bb1db_node_modules_13_0_1_vue_loader_lib_selector_type_template_index_0_swipe_vue__["a" /* default */],
+  __WEBPACK_IMPORTED_MODULE_1__node_modules_13_0_1_vue_loader_lib_template_compiler_index_id_data_v_270881d4_node_modules_13_0_1_vue_loader_lib_selector_type_template_index_0_swipe_vue__["a" /* default */],
   __vue_styles__,
   __vue_scopeId__,
   __vue_module_identifier__
@@ -253,9 +263,9 @@ if (false) {(function () {
   if (!hotAPI.compatible) return
   module.hot.accept()
   if (!module.hot.data) {
-    hotAPI.createRecord("data-v-566bb1db", Component.options)
+    hotAPI.createRecord("data-v-270881d4", Component.options)
   } else {
-    hotAPI.reload("data-v-566bb1db", Component.options)
+    hotAPI.reload("data-v-270881d4", Component.options)
   }
   module.hot.dispose(function (data) {
     disposed = true
@@ -294,7 +304,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-566bb1db", esExports)
+     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-270881d4", esExports)
   }
 }
 
@@ -315,7 +325,7 @@ var esExports = { render: render, staticRenderFns: staticRenderFns }
 if (false) {
   module.hot.accept()
   if (module.hot.data) {
-     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-6a6d01f5", esExports)
+     require("vue-loader/node_modules/vue-hot-reload-api").rerender("data-v-7f60459c", esExports)
   }
 }
 
@@ -637,7 +647,7 @@ exports.default = {
 
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 exports.swipeItem = exports.swipe = undefined;
 
@@ -651,13 +661,9 @@ var _swipeItem2 = _interopRequireDefault(_swipeItem);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
-window.vueSwipe = {
-    swipe: _swipe2.default,
-    swipeItem: _swipeItem2.default
-};
-
 exports.swipe = _swipe2.default;
 exports.swipeItem = _swipeItem2.default;
 
 /***/ })
 /******/ ]);
+});
