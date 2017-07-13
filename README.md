@@ -68,3 +68,5 @@ list of prop on swipe component
 
 # License
 MIT
+
+![image](https://github.com/zyl1314/vue-simple-swipe/blob/master/demo.gif)
