@@ -57,7 +57,9 @@ let app = new Vue({
 ```
 
 # Options
+
 list of prop on swipe component   
+
 | Option | Description |
 | ----- | ----- |
 | speed | Number(default: 300) speed of animation. |
