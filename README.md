@@ -25,7 +25,7 @@ Import with script tag
 <link rel="stylesheet" href="./node-modules/vue-simple-swipe/dist/swipe.css">
 <script src="./node-modules/vue-simple-swipe/dist/swipe.js"></script>
 
-const { Swipe, SwipeItem } = vueSwipe
+const { Swipe, SwipeItem } = VueSwipe
 ```
 
 # Usage
@@ -39,7 +39,7 @@ const { Swipe, SwipeItem } = vueSwipe
 </div>
 
 // js
-const { swipe, swipeItem } = vueSwipe
+const { swipe, swipeItem } = VueSwipe
 let app = new Vue({
     el: '#root',
     data: {
