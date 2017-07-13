@@ -1,6 +1,6 @@
 {
   "name": "vue-simple-swipe",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "author": "zylong",
   "main": "./dist/swipe.js",
   "description": "a simple vue swipe",
